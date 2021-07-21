@@ -1,6 +1,6 @@
 {
   "name": "arr-to-str",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "converts array of strictly increasing positive numbers to string of adjusted format",
   "main": "index.js",
   "scripts": {
