@@ -4,7 +4,7 @@
   "description": "converts array of strictly increasing positive numbers to string of adjusted format",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/scapinell/array-to-string/issues"
   },
-  "homepage": "https://github.com/scapinell/array-to-string#readme"
+  "homepage": "https://github.com/scapinell/array-to-string#readme",
+  "dependencies": {
+    "assert": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.2"
+  }
 }

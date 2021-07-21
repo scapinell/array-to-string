@@ -1,6 +1,5 @@
-var answer = ''
-
 async function arrToString(arr) {
+    let answer = ''
     let count = 0
     let j = 0
     for (let i = 0; i < arr.length; i++) {
