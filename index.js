@@ -1,6 +1,6 @@
 var answer = ''
 
-var arrayToString = function arrToString(arr, callback) {
+function arrToString(arr, callback) {
     let count = 0
     let j = 0
     for (let i = 0; i < arr.length; i++) {
@@ -39,9 +39,9 @@ function myCallBack (arrStart, arrEnd) {
     }
 }
 
-module.exports = arrayToString;
+module.exports = arrToString(arr, myCallBack)
 
-// console.log(arrayToString([1,2,3,4,5,6,7,8], myCallBack))
+// console.log(arrToString([1,2,3,4,5,6,7,8], myCallBack))
 // answer = ''
 // console.log(arrToString([1,3,4,5,6,7,8], myCallBack))
 // answer = ''
